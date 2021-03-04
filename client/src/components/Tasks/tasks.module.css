@@ -1,0 +1,28 @@
+.root {
+  background-color: white;
+  border: 1px solid #d1d1d1;
+  border-radius: 5px;
+  box-shadow: 0 5px 5px #c0bfbf;
+  box-sizing: border-box;
+  margin: 10px 0;
+  max-height: 900px;
+  padding: 10px;
+  width: 100%;
+}
+
+.title {
+  color: #3f4771;
+  font-size: large;
+}
+
+.list {
+  max-height: 75vh;
+  overflow: auto;
+}
+
+@media only screen and (min-width: 700px) {
+  .root {
+    margin: 10px 5px;
+    width: calc(100% - 450px);
+  }
+}

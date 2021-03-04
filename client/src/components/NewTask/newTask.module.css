@@ -1,0 +1,32 @@
+.root {
+  align-items: center;
+  background-color: white;
+  border: 1px solid #d1d1d1;
+  box-shadow: 0 5px 5px #c0bfbf;
+  box-sizing: border-box;
+  border-radius: 5px;
+  display: flex;
+  flex-flow: column;
+  height: 300px;
+  margin: 10px auto;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+}
+
+.title {
+  color: #3f4771;
+  font-size: large;
+}
+
+@media only screen and (min-width: 470px) {
+  .root {
+    width: 450px;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  .root {
+    margin: 10px 5px;
+  }
+}
